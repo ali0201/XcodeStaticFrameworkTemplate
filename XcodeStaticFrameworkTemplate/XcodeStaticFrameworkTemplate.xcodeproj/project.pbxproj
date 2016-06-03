@@ -15,6 +15,7 @@
 		0A88A1901D01714600DA0D4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A88A18E1D01714600DA0D4F /* LaunchScreen.storyboard */; };
 		0A88A19B1D01714600DA0D4F /* XcodeStaticFrameworkTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A88A19A1D01714600DA0D4F /* XcodeStaticFrameworkTemplateTests.m */; };
 		0A88A1A61D01714600DA0D4F /* XcodeStaticFrameworkTemplateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A88A1A51D01714600DA0D4F /* XcodeStaticFrameworkTemplateUITests.m */; };
+		0AA35F3D1D01727700172D6C /* PlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA35F3C1D01727700172D6C /* PlaceHolder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0A88A1A11D01714600DA0D4F /* XcodeStaticFrameworkTemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcodeStaticFrameworkTemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A88A1A51D01714600DA0D4F /* XcodeStaticFrameworkTemplateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XcodeStaticFrameworkTemplateUITests.m; sourceTree = "<group>"; };
 		0A88A1A71D01714600DA0D4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AA35F3B1D01727700172D6C /* PlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceHolder.h; sourceTree = "<group>"; };
+		0AA35F3C1D01727700172D6C /* PlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceHolder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				0A88A1841D01714600DA0D4F /* AppDelegate.m */,
 				0A88A1861D01714600DA0D4F /* ViewController.h */,
 				0A88A1871D01714600DA0D4F /* ViewController.m */,
+				0AA35F3B1D01727700172D6C /* PlaceHolder.h */,
+				0AA35F3C1D01727700172D6C /* PlaceHolder.m */,
 				0A88A1891D01714600DA0D4F /* Main.storyboard */,
 				0A88A18C1D01714600DA0D4F /* Assets.xcassets */,
 				0A88A18E1D01714600DA0D4F /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				0A88A1881D01714600DA0D4F /* ViewController.m in Sources */,
 				0A88A1851D01714600DA0D4F /* AppDelegate.m in Sources */,
 				0A88A1821D01714600DA0D4F /* main.m in Sources */,
+				0AA35F3D1D01727700172D6C /* PlaceHolder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +502,7 @@
 				0A88A1AC1D01714600DA0D4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A88A1AD1D01714600DA0D4F /* Build configuration list for PBXNativeTarget "XcodeStaticFrameworkTemplateTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				0A88A1AF1D01714600DA0D4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A88A1B01D01714600DA0D4F /* Build configuration list for PBXNativeTarget "XcodeStaticFrameworkTemplateUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				0A88A1B21D01714600DA0D4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
